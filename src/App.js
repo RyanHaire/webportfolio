@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import {HashRouter as Router, Switch, Route } from 'react-router-dom'
 import HomeScreen from './screens/HomeScreen'
 import PortfolioScreen from './screens/PortfolioScreen'
 import AboutScreen from './screens/AboutScreen'
