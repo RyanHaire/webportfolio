@@ -1,5 +1,6 @@
 import React from 'react'
 import { Image, Navbar, Nav } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import Logo from '../../assets/ryan-haire-logo.png'
 
 const Navibar = () => {
