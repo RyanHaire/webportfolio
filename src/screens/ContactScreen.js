@@ -45,6 +45,13 @@ const ContactScreen = () => {
                 console.log(error.text)
             }
         )
+
+        setFormData({
+            fullName: '',
+            email: '',
+            phoneNumber: '',
+            message: ''
+        })
     }
 
     return (
