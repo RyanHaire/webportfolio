@@ -7,7 +7,7 @@ const AboutScreen = () => {
         <>
          <Navibar/>   
          <main>
-             <div className="center-hv">
+             <div className="center-hv mt-4">
                 <h1 className="h1-title text-center mt-4">
                     About Ryan Haire
                 </h1>

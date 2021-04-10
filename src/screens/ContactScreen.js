@@ -59,8 +59,8 @@ const ContactScreen = () => {
          <Navibar/>   
          <main>
              <div className="center-hv">
-                <h1 className="h1-title">Contact Ryan Haire</h1>
-                <Container style={{width: '30rem'}} className="mt-2">
+                <h1 className="h1-title mt-5">Contact Ryan Haire</h1>
+                <Container id="form-container" className="mt-2 w-75">
                     <Form id="ContactForm" onSubmit={(e) => handleSubmit(e)}>
                         <Form.Group>
                             <Form.Label>Full Name</Form.Label>
