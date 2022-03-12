@@ -4,7 +4,7 @@ import HomeScreen from './screens/HomeScreen'
 import PortfolioScreen from './screens/PortfolioScreen'
 import AboutScreen from './screens/AboutScreen'
 import ContactScreen from './screens/ContactScreen'
-
+import HeianProjectScreen from './screens/HeianProjectScreen'
 function App() {
   return (
     <Router>
@@ -23,6 +23,10 @@ function App() {
 
         <Route exact path="/contact">
           <ContactScreen/>
+        </Route>
+
+        <Route exact path="/heian-canada">
+          <HeianProjectScreen/>
         </Route>
       </Switch>
     </Router>

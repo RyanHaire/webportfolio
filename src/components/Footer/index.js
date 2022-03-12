@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons'
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="footer">
             <div className="social-icons">
                 <SocialIcon network="twitter" url="http://twitter.com/ryanhairedev"/>   
                 <SocialIcon network="linkedin" url="https://www.linkedin.com/in/ryanwilliamhaire/"/>   
