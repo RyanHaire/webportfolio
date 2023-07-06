@@ -52,6 +52,7 @@ table {
   --white: #fff;
   --primary-rh: #AF5C5B;
   --secondary-rh: #B2933C;
+  --black: #444;
 }
 
 .txt-white {
@@ -60,10 +61,12 @@ table {
 
 .txt-primary {
   color: var(--primary-rh) !important;
+  font-size: 30px;
 }
 
 .txt-secondary {
   color: var(--secondary-rh) !important;
+  font-size: 30px;
 }
 
 .fs-large {
@@ -76,6 +79,18 @@ table {
 
 .mt-10 {
   margin-top: 10rem;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
 }
 
 body {
@@ -139,7 +154,6 @@ footer {
 
 .h1-title {
   color: var(--primary-rh);
-  text-decoration: underline;
 }
 
 .text-center {
@@ -152,18 +166,28 @@ footer {
   width: 30rem;
   font-weight: 500;
   font-size: 20px;
+  line-height: 50px;
 }
 
 #form-container {
   width: 30rem !important;
 }
 
+.list {
+  list-style: square;
+  padding-left: 50px;
+}
 
 .portfolio-img {
-  width: 1100px;
+  width: 60rem;
   display: flex;
   justify-content: center;
-  border: 5px solid #AF5C5B;
+  border: 3px solid #AF5C5B;
+  border-radius: 8px;
+}
+
+.portfolio-img-title {
+  color: var(--secondary-rh)
 }
 
 .h-100 {
@@ -178,22 +202,20 @@ footer {
   justify-content: center;
 }
 
-@media only screen and (max-width: 700px) {
-  .h1-title {
-    font-size: 30px;
-  }
+.p-about {
+  width: 30rem;
+  text-align: left;
+  color: var(--black) !important;
+}
 
+.h1-title {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  
   .social-icon {
     margin: 1rem;
-  }
-
-  .txt-secondary, .txt-primary {
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .p-about {
-    width: 20rem;
   }
 
   #form-container {

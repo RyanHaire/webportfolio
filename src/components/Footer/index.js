@@ -5,7 +5,8 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="social-icons">
-                <SocialIcon network="twitter" url="http://twitter.com/ryanhairedev"/>   
+                {/* <SocialIcon network="twitter" url="http://twitter.com/ryanhairedev"/>    */}
+                <span>My LinkedIn: </span>
                 <SocialIcon network="linkedin" url="https://www.linkedin.com/in/ryanwilliamhaire/"/>   
             </div>
         </footer>

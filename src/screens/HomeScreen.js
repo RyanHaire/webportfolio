@@ -12,7 +12,7 @@ const HomeScreen = () => {
             <Container>
                 <div className="center-hv">
                     <h1 className="txt-secondary">Hey, I'm <span className="txt-primary">Ryan Haire</span>.</h1>
-                    <h1 className="txt-secondary">I'm a fullstack web developer.</h1>
+                    <h1 className="txt-secondary">I'm a fullstack web developer, web designer, SEO specialist.</h1>
                     <Link to="/portfolio" className="btn-primary-rh mt-3">View my portfolio</Link>
                 </div>
             </Container>
